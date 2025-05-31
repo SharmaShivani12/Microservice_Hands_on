@@ -1,3 +1,5 @@
+# Intro
+
 1. main.py creates the FastAPI app and includes routes from routes.py.
 
 2. routes.py defines the endpoints. Each endpoint function:
