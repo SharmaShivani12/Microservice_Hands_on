@@ -1,13 +1,17 @@
 Client ──▶ /users endpoint (routes.py)
               │
               ▼
-      Validate request (models.py)
+      Validate input/output (models.py)
               │
               ▼
-      Read/write user data (storage.py)
+      Access data layer (storage.py)
               │
               ▼
-        JSON response (main.py)
+Return Python dict/model → FastAPI converts to JSON
+              │
+              ▼
+         Response to client (main.py starts the app)
+
 
 
 
